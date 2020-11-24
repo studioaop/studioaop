@@ -1,0 +1,18 @@
+input {
+    width: 343px;
+    height: 48px; 
+    margin: 32px 16px 32px 16px;
+    border-radius: 3px; 
+    border: solid 1px #1d2129; 
+    padding: 0 16px; 
+}
+h1 {
+    padding: 0 16px;
+}
+input + input
+    {
+        color: #00cccc;}
+
+input::placeholder {
+    color: turquoise;
+}
