@@ -16,3 +16,29 @@ input + input
 input::placeholder {
     color: turquoise;
 }
+
+header {
+    position: relative;
+    padding: 10px 15px;
+}
+
+header a {
+    display: inline-block;
+    width: 100px;
+}
+
+header a img {
+    width: 100%;
+}
+
+header button {
+    float: right;
+    background-image: url("images/bug.jpg");
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    background-color: none;
+    border: none;
+}
+
+
