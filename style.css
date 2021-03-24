@@ -21,6 +21,7 @@ header {
     position: absolute;
     width: 100%;
     padding: 10px 15px;
+    z-index: 1;
 }
 
 header a {
@@ -45,6 +46,7 @@ header button {
 }
 
 main {
+    position: relative;
     width: 100%;
     height: 1000px;
     background-image: url("images/main_W9.jpg");
@@ -54,6 +56,21 @@ main {
 main h1 {
     font-size: 55px;
     color: white;
-    
+    padding-top: 400px;
+    text-align: center;
+    font-family: gilroy;
+    font-weight: 600;
 }
 
+.dim {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.keyvisual {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
